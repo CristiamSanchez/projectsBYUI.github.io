@@ -197,9 +197,10 @@ main .herodiv img {
 
 
 div#message {
-    background-color: orange;
+    background-color: black;
     color: #fff;
     text-align: center;
+    height: 20px;
 }
 
 div.showme {

@@ -91,9 +91,9 @@
         color: white;
         text-decoration: none;
         background-color: grey;
-        padding: 5px;
-        width: 25px;
-        height: 25px;
+        padding: 3px;
+        width: 30px;
+        height: 28px;
         font-size: 20px;
         border-radius: 100%;
     }
@@ -142,6 +142,37 @@
         text-align: center;
     }
     /*end Gallery */
+    
+    /* book up box */
+    #box1 {
+        width: 160px;
+        height: 30px;
+        background: #9c2c13;
+        box-shadow: 50px 20px 50px black;
+        z-index: 9;
+        position: relative;
+    }
+
+    #box1:hover {
+        background: gray;
+        box-shadow: 50px 20px 50px white;
+    }
+    #box1 a{
+        color: white;
+    }
+    #box1::before {
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 30%;
+        background: #9c2c13;
+        z-index: -1;
+    }
+
+
+    /* end book up box */
     
     /*contact info*/
     main .contactus {

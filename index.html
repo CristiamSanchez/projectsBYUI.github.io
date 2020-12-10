@@ -54,7 +54,7 @@
 
     <!-- MAIN -->
     <main>
-        <div id="message">Today is Saturday, please check your stuffs before the day of the Lord</div>
+        <div id="message">Today, the government established it is dangerous to be close to the sea!</div>
         <h1>Home</h1>
 
         <!-- SLIDER -->
@@ -150,7 +150,16 @@
                 </div>
             </section><br>
             <!-- End Forecast-->
+
         </div><br>
+
+        <h2>Recommendations to do a reservation!</h2>
+        
+            <p>I    No one under 12 years of age are allowed to ride on the scooters.</p>
+            <p>II   Reservations rate requires 24 hour prior notification.</p>
+            <p>III  A valid drivers license is required in hand at time of rental.</p>
+            <p>IV   Liability insurance is free of charge.</p>
+            <p>V    Rentals may be returned to either location.</p><br>
 
         <!-- Table prices-->
         <table id="t01">
@@ -231,6 +240,10 @@
         </table><br><br>
         <!-- End table-->
 
+        <div id="box1">
+            <a href="reservations.html">Book it up with $50!</a>
+        </div><br><br>
+
             <div id="socialM">
                 <section id="acerca-de">
                     <article>
@@ -263,7 +276,7 @@
         const dayNumber = today.getDay();
         const element = document.getElementById("message");
 
-        if (dayNumber == 6) {
+        if (dayNumber == 3) {
             element.classList.add("showme");
         } else {
             element.classList.add("hideme");
